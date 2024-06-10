@@ -38,38 +38,37 @@
 
 # printa  elemento retirado
 
-lista = [1, 2, 3, 4]
-pos = 2
-
-def exclui_elemento(lista, pos):
-    elemento_retirado = 0
-    temp = []
-    for i in range(len(lista)):
-        if i != pos:
-            temp.append(lista[i])
-        else:
-            elemento_retirado = lista[i]
-    return lista(pos)
-
-elemento_retirado = exclui_elemento(lista, pos)
-
-print(elemento_retirado)
+# lista = [1, 2, 3, 4]
+# pos = 2
+#
+# def exclui_elemento(lista, pos):
+#     return lista[pos]
+#
+# elemento_retirado = exclui_elemento(lista, pos)
+#
+# print(elemento_retirado)
 
 # ____________________________________________________________________
 
+# printa a lista e mostra elemento retirado
+
 lista = [1, 2, 3, 4]
 pos = 2
 
-def exclui_elemento(lista, pos):
-    elemento_retirado = 0
+def lista_nova(lista, pos):
     temp = []
     for i in range(len(lista)):
         if i != pos:
             temp.append(lista[i])
-        else:
-            elemento_retirado = lista[i]
-    return elemento_retirado
+    return temp
+def elemento_retirado(lista, pos):
+    return lista[pos]
 
-elemento_retirado = exclui_elemento(lista, pos)
 
-print(elemento_retirado)
+elemento = elemento_retirado(lista, pos)
+lista = lista_nova(lista, pos)
+
+print(lista)
+print(elemento)
+
+
