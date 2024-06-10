@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>exercicio 1.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #93a1a1; font-style: italic;}
+.s1 { color: #586e75;}
+.s2 { color: #2aa198;}
+.s3 { color: #dc322f;}
+</style>
+</head>
+<body bgcolor="#fdf6e3">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+exercicio 1.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># sabendo-se que: um pé é igual a 12 polegadas, uma jarda é igual a 3 pés, uma milha igual a</span>
+<span class="s0"># 1760 jardas, faça um programa que receba uma medida em pés, faça as conversões e apresente o resultados</span>
+<span class="s0"># em polegas, jardas e milhas</span>
+
+<span class="s0"># 1 pe = 12 polegadas</span>
+<span class="s0"># 1 jarda = 3 pes</span>
+<span class="s0"># 1 milha =1760 jardas</span>
+<span class="s0">#</span>
+<span class="s0"># 1 polegada = 0,0833333 pe</span>
+<span class="s0"># 1 jarda = 3 pes</span>
+
+<span class="s1">print(</span><span class="s2">'Conversor de Jardas para pés!'</span><span class="s1">)</span>
+
+<span class="s1">foot = float(input(</span><span class="s2">'Digite uma medida em pés: '</span><span class="s1">))</span>
+<span class="s1">yards = foot * </span><span class="s2">1</span><span class="s1">/</span><span class="s2">3</span>
+
+<span class="s1">print(</span><span class="s2">f'</span><span class="s3">{</span><span class="s1">foot</span><span class="s3">} </span><span class="s2">pés é igual a </span><span class="s3">{</span><span class="s1">yards</span><span class="s3">} </span><span class="s2">Jardas.'</span><span class="s1">)</span>
+
+
+
+<span class="s1">print(</span><span class="s2">'Conversor de Milhas para Pés!'</span><span class="s1">)</span>
+
+<span class="s1">foot = float(input(</span><span class="s2">'Digite uma medida em Pés: '</span><span class="s1">))</span>
+<span class="s1">miles = foot * </span><span class="s2">0.000189394</span>
+
+<span class="s1">print(</span><span class="s2">f'</span><span class="s3">{</span><span class="s1">foot</span><span class="s3">} </span><span class="s2">pés é igual a </span><span class="s3">{</span><span class="s1">miles</span><span class="s3">} </span><span class="s2">Milhas.'</span><span class="s1">)</span>
+
+
+
+
+<span class="s1">print(</span><span class="s2">'Conversor de Polegadas para Pés!'</span><span class="s1">)</span>
+
+<span class="s1">foot = float(input(</span><span class="s2">'Digite uma medida em pés: '</span><span class="s1">))</span>
+
+<span class="s1">inches = foot * </span><span class="s2">12</span>
+
+<span class="s1">print(</span><span class="s2">f'</span><span class="s3">{</span><span class="s1">foot</span><span class="s3">} </span><span class="s2">pés é igual a </span><span class="s3">{</span><span class="s1">inches</span><span class="s3">} </span><span class="s2">Polegadas.'</span><span class="s1">)</span>
+
+
+</pre>
+</body>
+</html>
